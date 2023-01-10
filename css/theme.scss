@@ -1,0 +1,74 @@
+$primary: #394e91;
+$secondary: #b52a2f;
+$mask: #353738;
+$success: #006400;
+$info: #a5e5f3;
+$warning: #e8ab40;
+$danger: #ffadbb;
+$error: #e92d4d;
+$light: #DCDCDC;
+$silver: #f2f3f5;
+$lead: #616161;
+$gray: #a79f9f;
+$dark: #1C1C1C;
+$lemon: #f2fad5;
+$purple: #9205ea;
+$pink: #f43b99;
+$white: #ffffff;
+$info2: #DAA520;
+
+$yellow-color: #F38A21;
+$purple-light: #E8E0ED;
+$purple-dark: #582582;
+$gray-light: #828282;
+
+
+$theme-colors : (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "silver":     $silver
+);
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans.woff2') format('woff2'),
+        url('../fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'openSansLight';
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'openSansSemiBold';
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'openSansExtraBold';
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+}
+
+
+
+$font-family-sans-serif : 'Open Sans', Arial, sans-serif;
+$font-family-title: 'Open Sans', Arial, sans-serif;
+$font-family-bold-title: 'openSansExtraBold', Arial, sans-serif;
+$font-family-base:  $font-family-sans-serif;
